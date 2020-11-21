@@ -1,4 +1,6 @@
 import React from "react"
+
+
 function Table(props) {
     return (<table class="table">
         <thead>
@@ -19,7 +21,7 @@ function Table(props) {
                         <td> {employee.name.first} </td>
                         <td> {employee.name.last}</td>
                         <td>{employee.email}</td>
-                        <td>{employee.cell(000-000-0000)}</td>
+                        <td> {employee.cell}</td>
                     </tr>
                 )
             }) :
@@ -39,5 +41,6 @@ function Table(props) {
         </tbody>
     </table>)
 }
+
 
 export default Table;
