@@ -16,7 +16,7 @@ export default class DataArea extends Component {
     { name: "Name", width: "10%" },
     { name: "Phone", width: "20%" },
     { name: "Email", width: "20%" },
-    { name: "DOB", width: "10%" }
+    { name: "Birthday", width: "10%" }
   ]
 
   handleSort = heading => {

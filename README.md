@@ -18,7 +18,7 @@ Given a table of random users, when the user loads the page, a table of employee
 
 The user should be able to:
 
-  * Sort the table by at least one category
+  * Sort the users by first name
 
-  * Filter the users by at least one property.
+  * Search user by name, phone, email, or DOB
 

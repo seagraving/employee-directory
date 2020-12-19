@@ -44,7 +44,7 @@ function DataBody({ users }) {
                   {email}
                 </a>
               </td>
-              <td data-th="DOB" className="align-middle">
+              <td data-th="Birthday" className="align-middle">
                 {formatDate(dob.date)}
               </td>
             </tr>
