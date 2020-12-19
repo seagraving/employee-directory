@@ -20,5 +20,9 @@ The user should be able to:
 
   * Sort the users by first name
 
-  * Search user by name, phone, email, or DOB
+  * Search user by name, phone, email, or birthday
+
+  ## Deployment
+
+  https://seagraving.github.io/employee-directory
 
